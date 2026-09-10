@@ -29,7 +29,7 @@ public class StanAloneTest extends BaseTest{
 	public void StandAlone(HashMap<String,String> input) throws IOException
 	{
 		// TODO Auto-generated method stub
-        
+        //Gopi added CICD jenkins with Github
         
         String CountryName="india";
         landingpage.loginApplication(input.get("email"),input.get("Pass"));
