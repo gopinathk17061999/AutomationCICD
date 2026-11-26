@@ -22,7 +22,7 @@ public class JavaPractice {
 		List<List<Integer>> Arr= Arrays.asList(Arrays.asList(1,2,3),Arrays.asList(4,5),Arrays.asList(6,7,8));
 		List<Integer> Flat= Arr.stream().flatMap(List::stream).collect(Collectors.toList());
 		System.out.println(Flat);
-		System.out.println("Gop");
+		System.out.println("Go");
 		
 		
 		
